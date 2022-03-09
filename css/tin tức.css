@@ -1,0 +1,50 @@
+#container-3 {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:100%;
+    height: fit-content;
+}
+hr{
+    width: 91%;
+        color: black;
+    }
+    .column a:hover{
+        transform: scale(1.1);
+    }
+    #footer{
+        background-color: rgb(239,239,239,255);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+    @media only screen and (max-width: 768px) {
+        .column h1{
+            font-size: 26px;
+        }
+        .column p{
+            font-size: 14px;
+        }
+    }
+
+    
+    @media only screen and (min-width: 768px) and (max-width:991px) {
+        .column-img img{
+            height: 200px;        
+        }
+        .column h1{
+            font-size: 26px;
+        }
+        .column p{
+            font-size: 14px;
+        }
+    }
+    @media only screen and (min-width:991px) {
+        .column-img img{
+            height: 300px;        
+        }
+        .column h1{
+            font-size: 32px;
+        }
+        .column p{
+            font-size: 18px;
+        }
+    }
